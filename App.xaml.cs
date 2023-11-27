@@ -13,8 +13,7 @@ namespace Soim_Adrian_Lab7
                 if (database == null)
                 {
                     database = new
-                   ShoppingListDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.
-                   LocalApplicationData), "ShoppingList.db3"));
+                   ShoppingListDatabase(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "ShoppingList.db3"));
                 }
                 return database;
             }

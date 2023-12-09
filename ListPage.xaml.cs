@@ -1,4 +1,5 @@
 using Soim_Adrian_Lab7.Models;
+
 namespace Soim_Adrian_Lab7;
 
 public partial class ListPage : ContentPage
@@ -36,5 +37,4 @@ public partial class ListPage : ContentPage
 
         listView.ItemsSource = await App.Database.GetListProductsAsync(shopl.ID);
     }
-
 }
